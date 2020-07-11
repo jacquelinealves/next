@@ -65,6 +65,11 @@ body {
   text-decoration: underline;
   font-weight: normal;
 }
+.page .description.color--blue {
+  color: #0098e0;
+  text-align: left;
+  margin-top: 3rem;
+}
 
 .page .licensed {
   color: #6c6969;
