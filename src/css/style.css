@@ -130,7 +130,8 @@ body {
 }
 
 .page-07 label .obs {
-  color: #5f5f5f;;
+  color: #5f5f5f;
+  ;
 }
 
 .page-07 .notes {
@@ -146,6 +147,19 @@ body {
 
 .page-07 .notes .bold-text {
   font-weight: 700;
+}
+
+/*
+  Page 08
+*/
+
+.page-08 .main .title {
+  font-size: 1.5rem;
+  margin-top: 40px;
+}
+.page-08 .main .subtitle {
+  font-weight: 700;
+  line-height: 28px;
 }
 
 /*
