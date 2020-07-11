@@ -157,9 +157,27 @@ body {
   font-size: 1.5rem;
   margin-top: 40px;
 }
+
 .page-08 .main .subtitle {
   font-weight: 700;
   line-height: 28px;
+}
+
+/*
+  Page 10
+*/
+
+.page-10 .main .title {
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
+
+.page-10 .main .subtitle {
+  font-weight: 700;
+}
+
+.page-10 .form-group button {
+  margin-top: 150px;
 }
 
 /*
