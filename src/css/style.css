@@ -23,7 +23,6 @@ body {
   color: #0098e0;
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 1.10;
 }
 
 .page .main .subtitle {
@@ -227,6 +226,7 @@ Page 08
 
 .page-error .main .description a {
   color: #0098e0;
+  font-weight: 700;
   text-decoration: underline;
 }
 
