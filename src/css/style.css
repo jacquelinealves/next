@@ -150,7 +150,7 @@ body {
 }
 
 /*
-  Page 08
+Page 08
 */
 
 .page-08 .main .title {
@@ -161,6 +161,36 @@ body {
 .page-08 .main .subtitle {
   font-weight: 700;
   line-height: 28px;
+}
+
+/*
+  Page 09
+*/
+
+.page-09 .main .title {
+  color: #5f5f5f;
+  font-size: 1.5rem;
+}
+
+.page-09 .form-check-input {
+  margin-top: 20px;
+  width: 3% !important;
+}
+
+.page-09 .form-check-label {
+  color: #000;
+  font-weight: normal !important;
+  margin-left: 0 !important;
+}
+
+.page-09 .form-check-inline {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.page-09 .form-check-inline a {
+  color: #0098e0;
+  text-decoration: underline;
 }
 
 /*
