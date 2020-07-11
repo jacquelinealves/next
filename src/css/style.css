@@ -4,11 +4,44 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+.text--gray {
+  color: #6c6969 !important;
+  display: block;
+}
+
+.line--gray {
+  height: 20px;
+  display: block;
+  background: url('../images/line--gray.jpg') top center no-repeat;
+  background-size: contain;
+}
+
+.page .link--blue {
+  color: #0098e0;
+  float: right;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.page .btn-block {
+  font-size: 14px;
+  padding: 3px;
+}
+
 .page .button-blue {
   background-color: #0d74fe;
   color: #fff;
   font-size: 1rem;
 }
+
+.left-bg .logo {
+  width: 150px;
+  margin: 30px 0 0 15px;
+}
+
+/* 
+  Pages Default
+*/
 
 .page .logo {
   margin: 70px auto 100px auto;
@@ -30,12 +63,18 @@ body {
   font-size: 1.1rem;
 }
 
-.page .main form {
-  margin-top: 35px;
-}
-
 .page .main .description {
   color: #6c6969;
+}
+
+.page .description.color--blue {
+  color: #0098e0;
+  text-align: left;
+  margin-top: 3rem;
+}
+
+.page .main form {
+  margin-top: 35px;
 }
 
 .page .main form .form-group label {
@@ -63,36 +102,11 @@ body {
   width: 100%;
 }
 
-.page .link--blue {
-  color: #0098e0;
-  float: right;
-  text-decoration: underline;
-  font-weight: normal;
-}
-
-.page .description.color--blue {
-  color: #0098e0;
-  text-align: left;
-  margin-top: 3rem;
-}
-
 .page .licensed {
   color: #6c6969;
   font-size: 12px;
   margin-top: 59%;
   line-height: initial;
-}
-
-.left-bg .logo {
-  width: 150px;
-  margin: 30px 0 0 15px;
-}
-
-.line--gray {
-  height: 20px;
-  display: block;
-  background: url('../images/line--gray.jpg') top center no-repeat;
-  background-size: contain;
 }
 
 .footer-links {
@@ -118,11 +132,6 @@ body {
 .footer-links a.secondary {
   display: inline-block;
   font-size: 1rem;
-}
-
-.text--gray {
-  color: #6c6969 !important;
-  display: block;
 }
 
 /*
