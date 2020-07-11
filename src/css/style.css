@@ -6,12 +6,11 @@ body {
 
 .page .button-blue {
   background-color: #0d74fe;
-  color: #fsff;
+  color: #fff;
   font-size: 1rem;
 }
 
 .page .logo {
-  /* margin: 50px auto; */
   margin: 70px auto 100px auto;
 }
 
@@ -28,7 +27,6 @@ body {
 
 .page .main .subtitle {
   color: #5f5f5f;
-  /* font-size: 1.25rem; */
   font-size: 1.1rem;
 }
 
@@ -43,6 +41,7 @@ body {
 .page .main form .form-group label {
   display: block;
   font-weight: 700;
+  margin-bottom: 0;
   margin-left: 10px;
   text-align: left;
 }
@@ -52,7 +51,6 @@ body {
   border: 1px solid #5f5f5f;
   border-radius: 7px;
   font-size: 12px;
-  /* margin-bottom: 20px; */
   margin: 0 13px 20px 13px;
   padding: 5px;
   width: 100%;
@@ -131,9 +129,17 @@ body {
   Page 07
 */
 
+.page-07 .logo {
+  margin-bottom: 1rem;
+}
+
 .page-07 .main .title {
   color: #5f5f5f;
   font-size: 1.5rem;
+}
+
+.page-07 .main form input {
+  margin-bottom: 17px;
 }
 
 .page-07 label .obs {
@@ -148,8 +154,8 @@ body {
 
 .page-07 .notes .title {
   display: block;
-  font-size: 1.2rem;
-  margin-top: 37px;
+  font-size: 1.1rem;
+  margin-top: 60px;
 }
 
 .page-07 .notes .bold-text {
@@ -174,24 +180,31 @@ Page 08
   Page 09
 */
 
+.page-09 .logo {
+  margin-bottom: 1rem;
+}
+
 .page-09 .main .title {
   color: #5f5f5f;
   font-size: 1.5rem;
 }
 
-.page-09 .form-check-input {
-  margin-top: 20px;
+.page-09 .main form input {
+  margin-bottom: 17px;
+}
+
+.page-09 #checkAgree {
+  margin-top: 10px;
   width: 3% !important;
 }
 
 .page-09 .form-check-label {
   color: #000;
-  font-weight: normal !important;
   margin-left: 0 !important;
 }
 
 .page-09 .form-check-inline {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   width: 100%;
 }
 
